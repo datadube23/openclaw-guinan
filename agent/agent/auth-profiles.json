@@ -1,0 +1,14 @@
+{
+    "version": 1,
+    "profiles": {
+        "ollama:default": {
+            "type": "api_key",
+            "provider": "ollama",
+            "key": "ollama-local"
+        }
+    },
+    "order": {},
+    "lastGood": {
+        "ollama": "ollama:default"
+    }
+}
